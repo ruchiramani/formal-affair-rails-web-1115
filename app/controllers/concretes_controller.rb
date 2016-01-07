@@ -4,7 +4,10 @@ class ConcretesController < ApplicationController
   end
 
   def create
-    render nothing: true
+   
+       
+         render nothing: true
+
   end
 
   def edit
@@ -12,6 +15,7 @@ class ConcretesController < ApplicationController
   end
 
   def update
+  
     render nothing: true
   end
 end
